@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    section{
+        height: 100vh;
+        background-color: black;
+        text-align: center;
+        color: bisque;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+
+    span{
+        padding: 30px 150px;        
+        color: #ffffff;
+        background-color: crimson;
+    }
+    </style>
+
+    <section>
+        <h1>Code generator</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <span class="random"></span>
+        <button type="reset"> submit</button>
+
+    </section>
+
+
+    <script>
+        document.querySelector(".random").innerHTML =(Math.floor(Math.random()*10000000000000));;
+      functionproduce(){
+        Code= " "
+        rawcode="ABCDEFGHIJKLMNOPQRSRTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
+        for (let i = 0; i < 16; i++) {
+            code=rawcode.chartAt(math.random()*70)
+            
+        }
+        random.innerHTML='GH'+'2022'+code
+
+
+
+
+
+      }
+
+
+
+    </script>
+</body>
+</html>

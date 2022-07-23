@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.div span{
+    padding-top: 60S0px;
+    height: 100vh;
+    padding: 250px 100px;
+    border: 1px black solid;
+    border-radius: 10%;
+    margin:0px 15px;
+    margin-top: 15px;
+}
+.myimage{
+    border-radius: 60%;
+} 
+ .sec3 span{
+     
+     padding: 250px 100px;
+     border: 1px black solid;
+     border-radius: 10%;
+     margin:0px 15px;
+     margin-top: 15px;
+ }
+body{ 
+    
+    display: grid;
+    grid-template-columns: 1fr 4fr 7fr 4fr;
+}
+.sec1{
+    height: 100vh;
+    background-color: aqua;
+}
+.sec1 {
+ font-size: 30px;
+
+}
+.sec2{
+    font-size: 18px;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+.sec31{
+    padding-top: 15px;
+}
+.story{
+    padding: 150px 80px;
+    border-radius :15px; 
+    margin: 5px; ;
+    border: 2px solid black;
+    text-align: center;
+}
+.money{
+    padding: 55px 350px;
+    border-radius :20px; 
+    margin: 10px; ;
+    border: 2px solid black;
+    text-align: center;
+}
+.sec4{
+    height: 100vh;
+ background-color: black;
+}
+.ok{ 
+    width: 10px;
+    height: 10px;
+    padding-left: 10px;
+}
+div{
+    
+} 
